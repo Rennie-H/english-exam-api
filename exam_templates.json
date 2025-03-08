@@ -1,0 +1,79 @@
+{
+  "exam_template": {
+    "total_score": 120,
+    "sections": [
+      {
+        "name": "听力理解-短对话",
+        "question_type": "听力理解-短对话",
+        "num_questions": 8,
+        "score_per_question": 1
+      },
+      {
+        "name": "听力理解-长对话",
+        "question_type": "听力理解-长对话",
+        "num_questions": 4,
+        "questions_per_dialogue": 3,
+        "score_per_question": 1
+      },
+      {
+        "name": "单项选择",
+        "question_type": "随机从词汇考点（词义辨析，固定搭配），语法考点（时态，语态，非谓语动词，宾语/定语/状语从句，比较级和最高级，情态动词），句型结构考点（倒装/强调/疑问句），日常情景交际四类考点中分别随机选取考点并出四选一",
+        "num_questions": 10,
+        "score_per_question": 1.5
+      },
+      {
+        "name": "完形填空",
+        "question_type": "完形填空",
+        "num_questions": 10,
+        "score_per_question": 1.5
+      },
+      {
+        "name": "语法填空",
+        "question_type": "语法填空，生成一篇带有10空(其中6空提供提示词)的200字文章, 覆盖时态、语态、词性、从句等语法考点，要求学生根据上下文和语法规则填写一个单词或提示词的正确形式",
+        "num_questions": 10,
+        "score_per_question": 1
+      },
+      {
+        "name": "阅读理解A",
+        "question_type": "阅读理解，生成一篇250字的文章，每篇文章出3道四选一，格式自上而下为文章-问题及其选项-答案",
+        "num_questions": 1,
+        "questions_per_passage": 3,
+        "score_per_question": 2
+      },
+      {
+        "name": "阅读理解B",
+        "question_type": "阅读理解，先生成一篇250字的文章，每篇文章出3道四选一，格式自上而下为文章-问题及其选项-答案",
+        "num_questions": 1,
+        "questions_per_passage": 3,
+        "score_per_question": 2
+      },
+      {
+        "name": "阅读理解C",
+        "question_type": "阅读理解，先生成一篇300字的文章，每篇文章出4道四选一，格式自上而下为文章-问题及其选项-答案",
+        "num_questions": 1,
+        "questions_per_passage": 4,
+        "score_per_question": 2
+      },
+      {
+        "name": "阅读理解D",
+        "question_type": "阅读理解，先生成一篇350字的文章，每篇文章出5道四选一，格式自上而下为文章-问题及其选项-答案",
+        "num_questions": 1,
+        "questions_per_passage": 5,
+        "score_per_question": 2
+      },
+      {
+        "name": "阅读理解E",
+        "question_type": "阅读理解，先生成一篇400字的文章，每篇文章出5道四选一，格式自上而下为文章-问题及其选项-答案",
+        "num_questions": 1,
+        "questions_per_passage": 5,
+        "score_per_question": 2
+      },
+      {
+        "name": "作文",
+        "question_type": "作文题，设定主题，写一篇60词的文章",
+        "num_questions": 1,
+        "score_per_question": 20
+      }
+    ]
+  }
+}
