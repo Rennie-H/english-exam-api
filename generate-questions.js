@@ -163,7 +163,7 @@ async function generateQuestions(grade, questionType, number, vocabularyList, vo
         const response = await axios.post(
             "https://api.openai.com/v1/chat/completions",
             {
-                model: "gpt-4",
+                model: "gpt-4o",
                 messages: [
                     { role: "system", content: "You are an AI English test generator." },
                     { role: "user", content: prompt }
